@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: rgb(21, 44, 39);
+}
+
+ul.sidenav{
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 30px;
+    list-style-type: none;
+    margin: 20px 10px;
+    padding: 0;
+    width: 25%;
+    background-color: rgb(21, 44, 39);
+    position: fixed;
+    height: 70%;
+    width: 10%;
+    overflow: auto;
+}
+
+ul.sidenav li a{
+    display: block;
+    color: rgb(214, 214, 2);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.sidenav li a.active{
+    background-color: rgb(49, 156, 189);
+    color: white;
+    border-radius: 20px;
+}
+
+ul.sidenav li a:hover:not(.active){
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4%;
+    
+}
+
+.content{
+    font-family: "Rubik Wet Paint", system-ui;
+    color: white;
+    text-align: center;
+    padding: 200px 0px;
+    font-size: 40px;
+}
